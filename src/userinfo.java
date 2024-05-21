@@ -1,4 +1,4 @@
-public class userinfo {
+public class Userinfo {
     private String name;
     private int age;
     private String world;
@@ -6,14 +6,6 @@ public class userinfo {
     private String gender;
     private String email;
 
-    public userinfo(String name, int age, String world, String phone, String gender, String email ){
-        this.name = name;
-        this.age = age;
-        this.world = world;
-        this.phone = phone;
-        this.gender = gender;
-        this.email = email;
-    }
 
     public void setName(String name) {
         this.name = name;

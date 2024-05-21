@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 
 
-public class user_Test {
-    public static void main(String[] args) {
+public class User_Test {
+    public static void setUser() {
         Scanner scan = new Scanner(System.in, "UTF-8");
-        List<userinfo> u = new ArrayList<>();
+        List<Userinfo> u = new ArrayList<>();
         
 
         while (true) {
@@ -33,7 +33,7 @@ public class user_Test {
             System.out.print("이메일 : ");
             String email = scan.nextLine();
 
-            userinfo us = new userinfo(name, age, world, phone, gender, email);
+            Userinfo us = new Userinfo(name, age, world, phone, gender, email);
 
             u.add(us);          // 리스트에 추가
 
@@ -47,7 +47,7 @@ public class user_Test {
 
         }
         System.out.println("사용자 정보");
-        for(userinfo us : u){
+        for(Userinfo us : u){
             System.out.println(us);
         }
 

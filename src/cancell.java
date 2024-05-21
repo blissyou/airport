@@ -1,12 +1,12 @@
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.time.LocalDateTime;
-public class cancell {
+public class Cancell {
 
     private static String[] Add(String[] originArray, String val){
         String[] newArray = new String[originArray.length+1];
 
-        for(int index = 0; index< originArray.length;index ++){
+        for(int index = 0; index< originArray.length;index ++){ 
             newArray[index] = originArray[index];
         }
         newArray[originArray.length] = val;
