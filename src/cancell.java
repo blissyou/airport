@@ -31,5 +31,8 @@ public class cancell {
             }
         }
     }
+    public void history(){
+        System.out.println(Arrays.toString(log));
+    }
 
 }

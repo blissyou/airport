@@ -10,15 +10,6 @@ public class Air_Info {
         super();
     }
 
-    public Air_Info(String name, String day, int gate, String D_Time, String A_Time, String Desti){
-        this.name = name;
-        this.day = day;
-        this.gate = gate;
-        this.D_Time = D_Time;
-        this.A_Time = A_Time;
-        this.Desti = Desti;
-    }
-
     public String getName() {
         return name;
     }
